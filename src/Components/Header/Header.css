@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.container-header {
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(165, 109, 218, 0.89);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.container-header img {
+    width: 20%;
+}
+
+.container-header nav.navigate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+nav.navigate a {
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: linen;
+    font-family: "Orbitron", cursive;
+}

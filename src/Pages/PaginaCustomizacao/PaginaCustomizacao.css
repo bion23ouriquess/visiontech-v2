@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@400;500;600&display=swap');
+
+.container-customizar {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #caa9ff, #9f74d6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.areaCustomizar {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  width: 90%;
+  max-width: 600px;
+  margin-top: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.areaCustomizar h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 28px;
+  color: #4a148c;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.areaCustomizar h3 {
+  font-size: 20px;
+  color: #6a1b9a;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.areaCustomizar p {
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.areaCustomizar label {
+  font-weight: 600;
+  color: #4a148c;
+  margin-top: 8px;
+}
+
+.areaCustomizar select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d1c4e9;
+  border-radius: 8px;
+  background: #fafafa;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+.areaCustomizar select:focus {
+  outline: none;
+  border-color: #7b1fa2;
+  background: #f3e5f5;
+}
+
+.areaCustomizar button {
+  margin-top: 25px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.areaCustomizar button:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #9c27b0, #ba68c8);
+}
+
+.areaCustomizar p:last-child {
+  margin-top: 15px;
+  color: #4a148c;
+  font-weight: bold;
+  text-align: center;
+}

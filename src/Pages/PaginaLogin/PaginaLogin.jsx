@@ -1,27 +1,22 @@
-import { useNavigate } from 'react-router-dom'
-import Header from '../../Components/Header/Header'
-import "./PaginaLogin.css"
+import "./PaginaLogin.css";
+
 function PaginaLogin() {
-  const navigate = useNavigate();
   return (
-    <div className="container-login">
-      <Header />
-      <div className="markting">
-        <h2 className='titulo'>Destaques</h2>
-        <p>Conheça nossos modelos mais procurados</p>
-        <div className="imagesOculos">
-          <img src="/oculos1.png" alt="image1" />
-          <img src="/oculos2.png" alt="image2" />
-          <img src="/oculos3.png" alt="image3" />
-        </div>
-      </div>
-      <div className='button'>
+    <div className="container-login-2">
+      <div className="loginBox">
+        <img className="logo" src="/logo.png" alt="" />
+        <label>Email:</label>
+        <input type="email" placeholder="Digite seu email" />
 
-        <button className='buttonCustomizar' onClick={() => { navigate("/customizar") }}>Customizar um novo ocúlos</button>
+        <label>Senha:</label>
+        <input type="password" placeholder="Digite sua senha" />
 
+        <button>Entrar</button>
+
+        <p className="mensagem-login">Acesse com suas credenciais cadastradas.</p>
       </div>
     </div>
-  )
+  );
 }
 
-export default PaginaLogin
+export default PaginaLogin;

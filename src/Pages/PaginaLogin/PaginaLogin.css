@@ -1,60 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@400;500;600&display=swap');
 
-.container-login{
-    width: 100%;
-    padding-bottom: 10px;
-    
-}
-
-.container-login h2.titulo{
-    font-family: "Orbitron", cursive;
-    font-size: 70px;
-    color: rgb(70, 21, 110);
-}
-.container-login p{
-    font-family: "Orbitron", sans-serif;
-    font-size: 20px;
-    color: rgb(77, 9, 141);
-}
-.buttonCustomizar{
-    width: 70%;
-    padding: 20px;
-    color: white;
-    background-color: rebeccapurple;
-    border: none;
-    border-radius: 10px;
-    font-family: "Orbitron", cursive;
-}
-
-.markting {
-  width: 95%;
-  height: 60vh;
-  margin: 10px auto; 
-  border: none;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  gap: 20px;
-  padding: 5px;
-  background-color: aliceblue;
-}
-
-
-.imagesOculos {
+.container-login-2 {
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;     
-  gap: 20px;               
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
 }
 
-.imagesOculos img {
-  width: 250px;   
+.loginBox {
+  background: #fff;
+  border-radius: 16px;
+  padding: 10px;
+  width: 100%;
+  max-width: 50vh;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
 }
 
-.button{
-    width: 100%;
-    justify-content: center;
-    display: flex;
+/* Título principal */
+.loginBox h1 {
+  font-family: "Orbitron", sans-serif;
+  color: #4a148c;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
+
+/* Subtítulo */
+.loginBox h2 {
+  color: #6a1b9a;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Labels */
+.loginBox label {
+  font-weight: 600;
+  color: #4a148c;
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* Campos de input */
+.loginBox input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d1c4e9;
+  border-radius: 8px;
+  background: #fafafa;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+.loginBox input:focus {
+  outline: none;
+  border-color: #7b1fa2;
+  background: #f3e5f5;
+}
+
+/* Botão */
+.loginBox button {
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.loginBox button:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #9c27b0, #ba68c8);
+}
+
+/* Mensagem inferior */
+.mensagem-login {
+  margin-top: 15px;
+  color: #4a148c;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.container-login-2 img.logo{
+  width: 80%;
+  margin: auto
+};

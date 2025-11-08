@@ -28,3 +28,9 @@ nav.navigate a {
     text-decoration: linen;
     font-family: "Orbitron", cursive;
 }
+
+.perfil{
+    font-size: 50px;
+    color: aliceblue;
+    margin: 50px;
+}

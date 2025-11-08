@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@400;500;600&display=swap');
+
+.container-pedidos {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #caa9ff, #9f74d6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.checkSituacao {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  width: 90%;
+  max-width: 700px;
+  margin-top: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Títulos */
+.checkSituacao h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 24px;
+  color: #4a148c;
+  text-align: center;
+  margin: 10px auto;
+}
+
+/* Input e botão de rastreamento */
+.checkSituacao input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d1c4e9;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #fafafa;
+  transition: all 0.2s ease;
+}
+
+.checkSituacao input:focus {
+  outline: none;
+  border-color: #7b1fa2;
+  background: #f3e5f5;
+}
+
+.checkSituacao button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.checkSituacao button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #9c27b0, #ba68c8);
+}
+
+/* Separador */
+.checkSituacao hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 20px 0;
+}
+
+/* Resultado da busca */
+.checkSituacao p {
+  color: #555;
+  font-size: 15px;
+  text-align: center;
+}
+
+.checkSituacao small {
+  display: block;
+  color: #777;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Lista de pedidos */
+.checkSituacao ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.checkSituacao li {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkSituacao li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.checkSituacao li strong {
+  color: #4a148c;
+  font-weight: 600;
+}
+
+.checkSituacao li span {
+  background: #e1bee7;
+  color: #6a1b9a;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+}

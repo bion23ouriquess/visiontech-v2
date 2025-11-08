@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.container-login{
+    width: 100%;
+    padding-bottom: 10px;
+    
+}
+
+.container-login h2.titulo{
+    font-family: "Orbitron", cursive;
+    font-size: 70px;
+    color: rgb(70, 21, 110);
+}
+.container-login p{
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    color: rgb(77, 9, 141);
+}
+.buttonCustomizar{
+    width: 70%;
+    padding: 20px;
+    color: white;
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 10px;
+    font-family: "Orbitron", cursive;
+}
+
+.markting {
+  width: 95%;
+  height: 60vh;
+  margin: 10px auto; 
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+
+.imagesOculos {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  gap: 20px;               
+}
+
+.imagesOculos img {
+  width: 250px;   
+}
+
+.button{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}

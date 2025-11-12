@@ -3,6 +3,10 @@
 .container-login{
     width: 100%;
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -17,7 +21,7 @@
     color: rgb(77, 9, 141);
 }
 .buttonCustomizar{
-    width: 70%;
+    width: 50%;
     padding: 20px;
     color: white;
     background-color: rebeccapurple;
@@ -27,7 +31,7 @@
 }
 
 .markting {
-  width: 95%;
+  width: 50%;
   height: 60vh;
   margin: 10px auto; 
   border: none;
@@ -39,22 +43,39 @@
   gap: 20px;
   padding: 5px;
   background-color: aliceblue;
+  animation: fadeIn 1.5s forwards;
 }
 
+.fadeInTextMarkting {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+  color: rebeccapurple;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
 
 .imagesOculos {
   display: flex;
   justify-content: center;
-  align-items: center;     
-  gap: 20px;               
+  align-items: center; 
+  animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
 }
 
 .imagesOculos img {
-  width: 250px;   
+  width: 30%;   
 }
 
 .button{
-    width: 100%;
+    width: 50%;
     justify-content: center;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeIn 1.5s forwards;
 }

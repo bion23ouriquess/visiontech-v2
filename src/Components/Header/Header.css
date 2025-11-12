@@ -2,16 +2,16 @@
 
 .container-header {
     width: 100%;
-    height: 30vh;
+    height: 20vh;
     background-color: rgba(165, 109, 218, 0.89);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-radius: 0px 0px 20px 20px;
 }
 
 .container-header img {
-    width: 20%;
+    width: 10%;
 }
 
 .container-header nav.navigate {

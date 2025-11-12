@@ -5,7 +5,8 @@ function Header() {
   const navigate = useNavigate();
   return (
     <div className='container-header'>
-     <img className='logo' src="/logo.png" />
+     {/* <img className='logo' src="/logo.png" /> */}
+     <img className='logo' src="/logovt.png" />
 
     <nav className="navigate">
         <a href="/">Ínicio</a>

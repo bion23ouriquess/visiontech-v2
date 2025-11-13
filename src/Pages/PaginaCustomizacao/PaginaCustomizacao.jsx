@@ -1,13 +1,29 @@
+import { useState } from 'react'
 import Header from '../../Components/Header/Header'
 import "./PaginaCustomizacao.css"
+
+
 function PaginaCustomizacao() {
+
+  const [msg, setMsg] = useState(false)
+
+    const aparecer = () => {
+      setMsg(true)
+
+      setTimeout(()=> {
+        setMsg(false)
+      }, 2000)
+    }
+
+
+
   return (
     <div className='container-customizar'>
       <Header />
 
       <div className='areaCustomizar'>
         <h2>Selecione as customizações do óculos</h2>
-        <h3>Selecione as opções abaixo:</h3>
+        {/* <h3>Selecione as opções abaixo:</h3> */}
         <p>Confirme com o cliente antes de finalizar pedido!</p>
 
         <label>Modelo:</label>
@@ -50,7 +66,10 @@ function PaginaCustomizacao() {
           <option value="Grande">Grande (G) - 56mm</option>
         </select>
 
-        <button>Enviar Pedido</button>
+        <button onClick={aparecer}>Enviar Pedido</button>
+        {msg && (
+          <p>Pedido Feito!</p>
+        )}
 
         <p>Status da solicitação aqui</p>
       </div>

@@ -6,25 +6,35 @@ import { useState } from 'react';
 
 
 function PaginaLogin() {
+
   const [mostrarImagens, setMostrarImagens] = useState(false)
   const navigate = useNavigate();
+  const [loop, setLoop] = useState(0)
+
   return (
+
+
     <div className="container-login">
       <Header />
       <div className="markting">
         <h2 className='titulo'>Destaques</h2>
         <TypeAnimation
+          className='typeAnimation'
+          key={loop}
           sequence={[
-            'Conheça nossos modelos mais procurados',
-            () => setMostrarImagens(true)]}
-          speed={10}
+            'Conheça nossos modelos mais procurados!', 1000,
+            () => setMostrarImagens(true), 9000, // Mostra as imagens e o tempo de espera
+            () => setLoop(loop + 1),
+            () => setMostrarImagens(false), 1000
+          ]}
+          speed={50}
           deletionSpeed={99}
           wrapper='h1'
         /> {mostrarImagens && (
           <div className='imagesOculos'>
-          <img src="/Aviador-removebg.png" alt="image1" />
-          <img src="/Redondo-removebg.png" alt="image2" />
-          <img src="/QuadradoPreto-removebg.png" alt="image3" />
+            <img src="/Aviador-removebg.png" alt="image1" />
+            <img src="/Redondo-removebg.png" alt="image2" />
+            <img src="/QuadradoPreto-removebg.png" alt="image3" />
           </div>
         )}
 

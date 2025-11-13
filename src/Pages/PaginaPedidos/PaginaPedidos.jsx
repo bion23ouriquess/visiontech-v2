@@ -1,6 +1,10 @@
 import Header from '../../Components/Header/Header'
 import "./PaginaPedidos.css"
+
+
 function PaginaPedidos() {
+
+  
   return (
     <div className='container-pedidos'>
         <Header />

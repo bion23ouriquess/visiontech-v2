@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@400;500;600&display=swap'); */
 
 .container-pedidos {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #caa9ff, #9f74d6);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 40px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 .checkSituacao {

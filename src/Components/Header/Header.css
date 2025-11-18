@@ -2,7 +2,7 @@
 
 .container-header {
     width: 100%;
-    height: 20vh;
+    height: 20%;
     background-color: rebeccapurple;
     display: flex;
     justify-content: space-around;
@@ -11,7 +11,7 @@
 }
 
 .container-header img {
-    width: 10%;
+    width: 7%;
 }
 
 .container-header nav.navigate {

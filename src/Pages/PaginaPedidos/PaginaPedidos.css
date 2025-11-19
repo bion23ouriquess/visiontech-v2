@@ -17,7 +17,7 @@
   width: 90%;
   max-width: 700px;
   margin-top: 40px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 20px rgb(60, 0, 119);
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -27,7 +27,7 @@
 .checkSituacao h2 {
   font-family: "Orbitron", sans-serif;
   font-size: 24px;
-  color: #4a148c;
+  color: rgb(60, 0, 119);
   text-align: center;
   margin: 10px auto;
 }
@@ -45,7 +45,7 @@
 
 .checkSituacao input:focus {
   outline: none;
-  border-color: #7b1fa2;
+  border-color: rgb(60, 0, 119);
   background: #f3e5f5;
 }
 
@@ -54,7 +54,7 @@
   padding: 10px 15px;
   border: none;
   border-radius: 8px;
-  background: linear-gradient(135deg, #7b1fa2, #9c27b0);
+  background: linear-gradient(135deg,rgb(60, 0, 119), #9c27b0);
   color: white;
   font-size: 15px;
   font-weight: 600;
@@ -103,7 +103,7 @@
   background: #fafafa;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgb(60, 0, 119);
 }
 
 .checkSituacao li div {
@@ -114,7 +114,7 @@
 }
 
 .checkSituacao li strong {
-  color: #4a148c;
+  color: rgb(60, 0, 119);
   font-weight: 600;
 }
 

@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className='container-header'>
       {/* <img className='logo' src="/logo.png" /> */}
-      <img className='logo' src="/logovt.png" />
+      <img className='logo' src="/logo-removebg/visiontech_logo-removebg.png" />
 
       <nav className="navigate">
 

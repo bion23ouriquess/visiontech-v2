@@ -1,40 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-.container-login{
-    width: 100%;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+.container-login {
+  width: 100%;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.container-login h2.titulo{
-    font-family: "Orbitron", cursive;
-    font-size: 70px;
-    color: rgb(70, 21, 110);
-    animation: fadeIn 1.5s forwards;
+.container-login h2.titulo {
+  font-family: "Orbitron", cursive;
+  font-size: 70px;
+  color: rgb(60, 0, 119);
+  animation: fadeIn 1.5s forwards;
 }
-.container-login p{
-    font-family: "Orbitron", sans-serif;
-    font-size: 20px;
-    color: rgb(77, 9, 141);
+
+.container-login p {
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  color: rgb(60, 0, 119);
 }
-.buttonCustomizar{
-    width: 50%;
-    padding: 20px;
-    color: white;
-    background-color: rebeccapurple;
-    border: none;
-    border-radius: 10px;
-    font-family: "Orbitron", sans-serif;
+
+.buttonCustomizar {
+  width: 50%;
+  padding: 20px;
+  color: white;
+  background-color: rgb(60, 0, 119);
+  background: linear-gradient(135deg, rgb(60, 0, 119), #9c27b0);
+  border: none;
+  border-radius: 10px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+
+  &&  .button:hover{
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #9c27b0, #ba68c8);
+}
 }
 
 .markting {
   width: 50%;
   height: 60vh;
-  margin: 10px auto; 
+  margin: 10px auto;
   border: none;
   border-radius: 20px;
   display: flex;
@@ -45,13 +55,14 @@
   padding: 5px;
   background-color: aliceblue;
   animation: fadeIn 1.5s forwards;
+  box-shadow: 0 2px 5px rgb(60, 0, 119);
 }
 
 .fadeInTextMarkting {
   opacity: 0;
   transition: opacity 1.5s ease;
-  color: rebeccapurple;
-  font-weight: bold; 
+  color: rgb(60, 0, 119);
+  font-weight: bold;
   font-size: 2rem;
   letter-spacing: 2px;
 }
@@ -59,32 +70,40 @@
 .imagesOculos {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   animation: fadeIn 1.5s forwards;
 }
 
 @keyframes fadeIn {
-  from {opacity: 0; transform: translateY(20px);}
-  to {opacity: 1; transform: translateY(0);}
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .imagesOculos img {
-  width: 30%;   
+  width: 30%;
 }
 
-.button{
-    width: 50%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    animation: fadeIn 1.5s forwards;
+.button {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  animation: fadeIn 1.5s forwards;
 }
 
 .typeAnimation {
   font-family: "Orbitron", sans-serif;
-  color: rebeccapurple;
+  color: rgb(60, 0, 119);
   letter-spacing: 2px;
   font-weight: bold;
   text-shadow: 2px 2px 4px gray;
 }
+

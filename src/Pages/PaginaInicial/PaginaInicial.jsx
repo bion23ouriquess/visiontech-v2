@@ -32,9 +32,9 @@ function PaginaLogin() {
           wrapper='h1'
         /> {mostrarImagens && (
           <div className='imagesOculos'>
-            <img src="/Aviador-removebg.png" alt="image1" />
-            <img src="/Redondo-removebg.png" alt="image2" />
-            <img src="/QuadradoPreto-removebg.png" alt="image3" />
+            <img src="/produtos/Aviador-removebg.png" alt="image1" />
+            <img src="/produtos/Redondo-removebg.png" alt="image2" />
+            <img src="/produtos/QuadradoPreto-removebg.png" alt="image3" />
           </div>
         )}
 
